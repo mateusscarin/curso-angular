@@ -8,7 +8,7 @@
 
 ## Criando Componentes
 * Para criar um componente podemos utilizar o CLI;
-* Comando: ng generate **<nome>**
+* Comando: ng generate **`<nome>`**
 * Todos os arquivos necessários serão criados no projeto;
 * Para importar o componente basta utilizar o **selector** em um HTML de outro componente
 
@@ -17,7 +17,7 @@
 * Vamos criar nossas variáveis no arquivos .ts, dentro da classe;
 * Ou seja, estas variáveis são propriedades da classe;
 * E então teremos acesso a estes dados no arquivo .html, o template: 
-    - A impressão é feita através de: **{{ dado }}**
+    - A impressão é feita através de: **`{{ dado }}`**
 
 ## CSS no Angular
 * Os estilos em aplicações Angular podem ser feitos de **duas maneiras**;
@@ -25,4 +25,9 @@
     - Obs: será aplicado dentro de todo o projeto;
 * **Scoped**: estilos a nível de componente, criamos quando damos um generate;
     - Obs: será aplicado apenas dentro do componente;
+
+## Compatilhando dados
+* Em Angular podemos compartilhar **dados do componente pai para o componente filho**;
+    - Disponibilizar na chamada do componente o nome do dado que será recebido com a seguinte sintaxe: **`[dado]`**;
+    - No código .ts do componente filho vamos utilizar o decorator `@Input`, que tem papel de entregar o dado para o template.
 
