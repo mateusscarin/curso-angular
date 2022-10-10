@@ -6,8 +6,9 @@
 - src/app - pasta principal para componentes, services e etc;
 - Os componentes são divididos em partes TS, HTML, CSS e testes.
 
-*Compartilhando dados*
-- Em Angular podemos compartilhar dados do componente pai com componente filho:
-    - Disponibilizar na chamada do componente o nome do dado que será recebido com a seguinte sintaxe: [dado];
-    - No código .ts do componente filho vamos utilizar o decorator @input, que tem como papel entregar o dado para o template.
+*Criando Componentes*
+- Para criar um componente podemos utilizar o CLI;
+- Comando: ng generate <nome>
+- Todos os arquivos necessários serão criados no projeto;
+- Para importar o componente basta utilizar o *selector* em um HTML de outro componente
 
