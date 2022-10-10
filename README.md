@@ -12,3 +12,10 @@
 - Todos os arquivos necessários serão criados no projeto;
 - Para importar o componente basta utilizar o *selector* em um HTML de outro componente
 
+*Interpolação de Dados*
+- Interpolação de dados é um recurso que nos ensina a trabalhar com componentes do Angular;
+- Vamos criar nossas variáveis no arquivos .ts, dentro da classe;
+- Ou seja, estas variáveis são propriedades da classe;
+- E então teremos acesso a estes dados no arquivo .html, o template: 
+    - A impressão é feita através de: {{ dado }}
+
