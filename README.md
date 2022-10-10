@@ -31,3 +31,9 @@
     - Disponibilizar na chamada do componente o nome do dado que será recebido com a seguinte sintaxe: **`[dado]`**;
     - No código .ts do componente filho vamos utilizar o decorator `@Input`, que tem papel de entregar o dado para o template.
 
+## Diretivas
+* Em Angular temos um recurso chamado diretivas;
+* Que podem realizar diversas funções no sistema, como **aplicar estilos a um elemento**;
+* Elas começam sempre com ***ng***, nomenclatura fica semelhante a ***ngAlgumaCoisa***.
+
+
