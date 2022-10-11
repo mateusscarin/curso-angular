@@ -76,3 +76,10 @@
 - Toda entidade que vamos trabalhar precisa de uma interface;
   - Torna o código mais simples ao longo do programa;
   - Padroniza e **facilita a manutenção**.
+
+## Pipe operators
+
+- Os **pipe operators** são recursos para trabalhar com strings nos templates;
+- Podemos realizar **diversas funções**, como deixar o texto em caixa alta;
+- Sintaxe: `{{ dado | algumPipeOperator}}`;
+- Desta maneira nos poupamos de regras de CSS ou manipulação de strings com JS.
