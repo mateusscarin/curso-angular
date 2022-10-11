@@ -12,7 +12,7 @@
 - Para criar um componente podemos utilizar o CLI;
 - Comando: ng generate **`<nome>`**
 - Todos os arquivos necessários serão criados no projeto;
-- Para importar o componente basta utilizar o **selector** em um HTML de outro componente
+- Para importar o componente basta utilizar o **selector** em um HTML de outro componente.
 
 ## Interpolação de Dados
 
@@ -20,7 +20,7 @@
 - Vamos criar nossas variáveis no arquivos .ts, dentro da classe;
 - Ou seja, estas variáveis são propriedades da classe;
 - E então teremos acesso a estes dados no arquivo .html, o template:
-  - A impressão é feita através de: **`{{ dado }}`**
+  - A impressão é feita através de: **`{{ dado }}`**.
 
 ## CSS no Angular
 
@@ -28,7 +28,7 @@
 - **Global**: utilizando o arquivo style.css, que fica em src;
   - Obs: será aplicado dentro de todo o projeto;
 - **Scoped**: estilos a nível de componente, criamos quando damos um generate;
-  - Obs: será aplicado apenas dentro do componente;
+  - Obs: será aplicado apenas dentro do componente.
 
 ## Compatilhando dados
 
@@ -53,5 +53,12 @@
 
 - Podemos **ativar eventos** nos componentes para disparar algum método;
   - Evento clássico que utiliza-se é o **click**;
-  - Sintaxe: **`(click)="algumaFuncao"`**;
-- Os métodos ficam na **classe**;
+  - Sintaxe: **`(click)="algumaFuncao()"`**;
+- Os métodos ficam na **classe**.
+
+## Emitindo eventos
+
+- Podemos comunicar eventos de um componente filho para o pai;
+  - **`@Output`**, que vai fazer a saída do evento do componente filho;
+  - **Na tag de invocação do componente no template**, escolhemos um método para exercutar quando o evento for emitido;
+  - Ex: **`(emit)="onEmit"`**.
