@@ -48,3 +48,10 @@
   - Utilizando a diretiva **_nglf_** para isso;
   - Os valores podem ser dinâmicos (**propriedades**), mas podemos realizar outros tipos de comparação;
 - Possibilidade também de imprimir cenário de validação de falso, com o else.
+
+## Eventos
+
+- Podemos **ativar eventos** nos componentes para disparar algum método;
+  - Evento clássico que utiliza-se é o **click**;
+  - Sintaxe: **`(click)="algumaFuncao"`**;
+- Os métodos ficam na **classe**;
