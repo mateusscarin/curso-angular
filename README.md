@@ -62,3 +62,11 @@
   - **`@Output`**, que vai fazer a saída do evento do componente filho;
   - **Na tag de invocação do componente no template**, escolhemos um método para exercutar quando o evento for emitido;
   - Ex: **`(emit)="onEmit"`**.
+
+## Renderização de listas
+
+- Recurso importante: **loop** em listas
+- Necessário uma propriedade com os itens da lista;
+  - No template do componente utilizar o **`*ngFor`**;
+  - Sintaxe: **`*ngFor=let item of items`**;
+  - Dessa maneira podemos rendeziar o template baseado em dados.
