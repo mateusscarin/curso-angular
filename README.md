@@ -70,3 +70,9 @@
   - No template do componente utilizar o **`*ngFor`**;
   - Sintaxe: **`*ngFor=let item of items`**;
   - Dessa maneira podemos rendeziar o template baseado em dados.
+
+## Importância das interfaces
+
+- Toda entidade que vamos trabalhar precisa de uma interface;
+  - Torna o código mais simples ao longo do programa;
+  - Padroniza e **facilita a manutenção**.
