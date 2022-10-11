@@ -83,3 +83,10 @@
 - Podemos realizar **diversas funções**, como deixar o texto em caixa alta;
 - Sintaxe: `{{ dado | algumPipeOperator}}`;
 - Desta maneira nos poupamos de regras de CSS ou manipulação de strings com JS.
+
+## Two way data binding
+
+- O **Two way data binding** é um recurso muito interessante para trabalhar com formulários ;
+- Conseguimos **alterar props** e o template com o preenchimento de inputs;
+- Necessário importar o **`FormsModule`** no componente principal;
+- E também declarar o **`ngModel`** no input, além de preencher também o atributo name, todos com o mesmo valor.
