@@ -90,3 +90,11 @@
 - Conseguimos **alterar props** e o template com o preenchimento de inputs;
 - Necessário importar o **`FormsModule`** no componente principal;
 - E também declarar o **`ngModel`** no input, além de preencher também o atributo name, todos com o mesmo valor.
+
+## Services
+
+- O **Service** é outra parte fundamental da arquitetura do Angular;
+- Geralmente ficam as requisições para as APIs que utilizamos no projeto;
+- Necessário criar o service com: **`ng generate service <nome>`**;
+- Importar no componente e iniciar no **constructor**;
+  - Depois é possível acessar os métodos dele.
