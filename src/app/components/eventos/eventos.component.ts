@@ -13,6 +13,6 @@ export class EventosComponent implements OnInit {
   ngOnInit(): void {}
 
   showMessage(): void {
-    this.show = true;
+    this.show = !this.show; //toggle
   }
 }
