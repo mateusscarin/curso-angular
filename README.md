@@ -104,5 +104,5 @@
 - Declarar rotas em **novo arquivo**;
 - Importar os módulos **RouterModule** e **Routes**;
 - Após definição estas rotas precisam ser importadas em **app.module.ts**;
-- E por fim no template principal criamos as rotas;
-  - Substituindo os componentes por: **`<router-outlet>`**
+- E por fim no **template** principal criamos as rotas;
+  - Substituindo os componentes por: **`<router-outlet>`**.
