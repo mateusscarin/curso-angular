@@ -122,7 +122,7 @@
 
 ## Deletado registro
 
-- Refatorar ação de remover registros com a execução HTTP;
-- Outro método no service;
+- Refatorar ação de remover registros com a **execução HTTP**;
+- Outro **método no service**;
 - Ajustar maneira que o método da classe do componente é executado;
-- Estaremos interagindo com a API.
+- Estaremos interagindo com a **API**.
