@@ -1,4 +1,5 @@
 # curso-angular
+Repositório realizado com base no Curso Angular 13 by Matheus Battisti - Hora de Codar (Youtube).
 
 ## Estrutura do Angular
 
