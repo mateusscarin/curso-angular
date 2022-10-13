@@ -111,4 +111,11 @@
 
 - Realizar **requisições HTTP** nos nossos services;
 - Precisamos identificar dois pacotes: **HttpClient** e **HttpHeaders**;
-- Necessário inicializar o módulo **HttpClientModule** em app.module.ts;
+- Necessário inicializar o módulo **HttpClientModule** em app.module.ts.
+
+## Carregando dado individual
+
+- Para resgatar um dado do banco vamos precisar criar uma **rota dinâmica** no nosso router;
+- **Baseado no id** do item teremos a seleção do banco de dados no banco, geralmente o id vem pela **URL**;
+- Para resgatar parâmetros da URL vamos utilizar o **`ActiveRoute`**, um módulo de Angular;
+- A lógica para requisição HTTP ficará no **service**
