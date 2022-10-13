@@ -119,3 +119,10 @@
 - **Baseado no id** do item teremos a seleção do banco de dados no banco, geralmente o id vem pela **URL**;
 - Para resgatar parâmetros da URL vamos utilizar o **`ActiveRoute`**, um módulo de Angular;
 - A lógica para requisição HTTP ficará no **service**.
+
+## Deletado registro
+
+- Refatorar ação de remover registros com a execução HTTP;
+- Outro método no service;
+- Ajustar maneira que o método da classe do componente é executado;
+- Estaremos interagindo com a API.
